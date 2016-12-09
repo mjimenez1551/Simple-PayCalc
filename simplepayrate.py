@@ -2,13 +2,13 @@
 using time and a half calculations used in python for everyone (coursera)"""
 hrs = raw_input("How Many hours were worked:\n") #Asks for user input
 try:
-    hrs=float(hrs) #Trys to converts user input to a floating number
+    hrs=float(hrs) #Trys to convert user input to a floating number
 except:
     print("You entered an invalid number") #Executes if a string was used instead of number
     quit()
 payrate = raw_input("What is the payrate:\n") #Asks for user input
 try:
-    payrate=float(payrate) #Trys to converts user input to a floating number
+    payrate=float(payrate) #Trys to convert user input to a floating number
 except:
     print ("You entered an invalid number") #Executes if a string was used instead of number
     quit()
